@@ -10,6 +10,7 @@ determine se a mesma é uma data válida.
 dia = int(input('Informe o dia: '))
 mes = int(input('Informe o mês: '))
 ano = int(input('Informe o ano: '))
+
 if dia == 29:
   if mes == 2:
     print (f'A data {dia}/{mes}/{ano}, é válida.')

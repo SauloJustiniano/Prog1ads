@@ -23,12 +23,14 @@ No exemplo o valor da hora é 5 e a quantidade de hora é 220.
 
 tempo_trabalhado = int(input('Qual o tempo de trabalho no mês: '))
 valor_hora = float(input('Qual o valor da hora por tempo de trabalho: R$'))
+
 salario_bruto = tempo_trabalhado * valor_hora
 ir = float(salario_bruto * 5) / 100
 inss = float(salario_bruto * 10) / 100
 fgts = float(salario_bruto * 11) / 100
 total_desconto = inss
 salario_liquido = float(salario_bruto - total_desconto)
+
 if salario_bruto <= 900:
   print(f'Salário Bruto: R${salario_bruto}')
   print(f'INSS: R${inss:.2f}')

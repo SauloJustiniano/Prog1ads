@@ -1,6 +1,6 @@
 # Saulo Justiniano
 # Unifip - Patos-PB
-# Dia 05 de Março de 2020.
+# Dia 14 de Abril de 2020.
 
 '''
 1. Faça um programa que solicite ao usuário o valor do litro de combustível (ex. 4,75) e

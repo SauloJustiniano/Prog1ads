@@ -34,4 +34,5 @@ if centena > 1:
   centena_print = 'centenas'
 else:
   centena_print = 'centena'
+
 print(f'O número {num1} tem: {centena:.0f} {centena_print}, {dezena:.0f} {dezena_print} e {unidade:.0f} {unidade_print}.')
